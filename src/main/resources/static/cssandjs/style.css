@@ -1,0 +1,73 @@
+
+
+.flex-container {
+  display: flex;
+  background-color: LightBlue;
+   justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 50px;
+ 
+}
+
+input[type=text], textarea {
+  width: 80%;
+  padding: 10px 18px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 10%;
+  padding: 10px 18px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit], button {
+  width: 80%;
+  background-color: LightBlue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: DodgerBlue;
+}
+
+#courseList {
+  font-family: Arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#courseList td, #courseList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#courseList tr{background-color: lightBlue;}
+
+#courseList tr:hover {background-color: #ddd;}
+
+#courseList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: DodgerBlue;
+  color: white;
+}
